@@ -1,0 +1,20 @@
+{
+  "name": "mundial-2026-fixture",
+  "private": true,
+  "version": "3.0.0",
+  "type": "module",
+  "description": "Fixture interactivo del Mundial 2026 — TypeScript + Vite, arquitectura por capas (full front).",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "html2canvas": "^1.4.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "vite": "^5.4.2"
+  }
+}
